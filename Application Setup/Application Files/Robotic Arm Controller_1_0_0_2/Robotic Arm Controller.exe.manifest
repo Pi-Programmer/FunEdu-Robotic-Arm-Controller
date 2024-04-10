@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="Robotic Arm Controller.exe" version="1.0.0.2" publicKeyToken="e0285e973439dc6a" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Robotic Arm Controller" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="Robotic Arm Controller.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Robotic Arm Controller.exe" size="52136">
+      <assemblyIdentity name="Robotic Arm Controller" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>rqyStH+K7gfefh2w7r4sDpuypKr/soRNML/tWAyi/7A=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Robotic Arm Controller.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>R+Wg8QGvQVHX8T0ta/qbhH1bXkqY0fRnS3wBV3J0bN8=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=ADITYA\citya" issuerKeyHash="c33cecadcdbf86e796911c07c74f7a5c0228b3df" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>xNDV0fr71zTTTGuZ14RESdXBoxq1IFu8K6FenowTRo4=</DigestValue></Reference></SignedInfo><SignatureValue>eH3ym6VqjGDXniIga7BfomMFVASgPWaCWvw/mHMmP8ub7j2GKWZ4K+VU0hDEYspHI897WVeGpdLTsogQtjAmoCk5QpYw+fLeejcr6LHOQHu2z73piG+O4Sm38iVU4vEPx/JovhToNKxy/P+6oFbVMgiaE/xNvTkGOdcfKTLHhig=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>wgH725xaElCNYbHucfMhbMd4nZFJa+hsGOk4RUXIBNCqg0ik0Yy0XrZWQQU/II3khy4MRYOkYRShd2akKw+WjeLLCk3zggbh9jn/wvLOLXFA+AInJX4FPtqwgQ45NBh+retcnmQKbwFEaeTihIjduBvUk9DtigZMI37CZah84gU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="8e46138c9e5ea12bbc5b20b51aa3c1d5494484d7996b4cd334d7fbfad1d5d0c4" Description="" Url=""><as:assemblyIdentity name="Robotic Arm Controller.exe" version="1.0.0.2" publicKeyToken="e0285e973439dc6a" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=ADITYA\citya</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>2gI2VlIk7/8BPdNxc7SE7paqOjpE26l1is/abFmQihk=</DigestValue></Reference></SignedInfo><SignatureValue>ccPWBL05XLm3rEMswysRlc4VfRcXuERC11Ew5iY6HcUDepjnoWjMxBsLrFuvt55eIY8g8f8hyq0pWhp8QGpTS7UVA4HP8spYS215GYQ3NtB4EzoRp3i9kQsHI9g1FA4Qe34Njk7PT4cx4tWVZQDNvkmsLWzqt5kdpYmiP4bhXZA=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>wgH725xaElCNYbHucfMhbMd4nZFJa+hsGOk4RUXIBNCqg0ik0Yy0XrZWQQU/II3khy4MRYOkYRShd2akKw+WjeLLCk3zggbh9jn/wvLOLXFA+AInJX4FPtqwgQ45NBh+retcnmQKbwFEaeTihIjduBvUk9DtigZMI37CZah84gU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIByTCCATKgAwIBAgIQb3nCxu+o9JpMSpXqR/VTrzANBgkqhkiG9w0BAQsFADAjMSEwHwYDVQQDHhgAQQBEAEkAVABZAEEAXABjAGkAdAB5AGEwHhcNMjQwNDA2MTQwODI1WhcNMjUwNDA2MjAwODI1WjAjMSEwHwYDVQQDHhgAQQBEAEkAVABZAEEAXABjAGkAdAB5AGEwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAMIB+9ucWhJQjWGx7nHzIWzHeJ2RSWvobBjpOEVFyATQqoNIpNGMtF62VkEFPyCN5IcuDEWDpGEUoXdmpCsPlo3iywpN84IG4fY5/8Lyzi1xQPgCJyV+BT7asIEOOTQYfq3rXJ5kCm8BRGnk4oSI3bgb1JPQ7YoGTCN+wmWofOIFAgMBAAEwDQYJKoZIhvcNAQELBQADgYEAm66osH6Uv3T45TYpw1HwRe8f7mLzpWwTMBef7YIpssg4s++sJ9SptxMy0kc31T+4oZBi3A2vY5SlNFbdhrasseULm5jjxibMQotgyWteYgyu641MFiF9cWVcMWTxCRJcm3kIYK4sPa7TS1ZCZhNbmbxqjOGu+xNEJQX5moaeNyg=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
